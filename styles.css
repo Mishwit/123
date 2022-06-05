@@ -1,0 +1,28 @@
+h1 {
+  color: red;
+}
+h2 {
+  color: blueviolet;
+}
+h3,h4,h5,h6 {
+  color: orange;
+}
+li,ul,ol {
+  color: blue;
+}
+i {
+  color: brown;
+}
+strong, b {
+  color: green;
+}
+tr,td {
+  color: gray;
+}
+li {
+  list-style-type: disc;
+}
+.special {
+  color: orchid;
+  font-weight: bold;
+}
