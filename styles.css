@@ -26,3 +26,10 @@ li {
   color: orchid;
   font-weight: bold;
 }
+div {
+  width: 143px;
+  height: 15px;
+  padding: 25px 15px;
+  border: 5px solid hotpink;
+  margin: 30px;
+}
