@@ -1,44 +1,132 @@
-h1 {
-  color: red;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: overline;
+body{background-image: url(images/1005492-painting-video-games-artwork-Dark-Souls-III-ART-screenshot.jpg);
+background-attachment:fixed;
+font-family: 'Courier New', Courier, monospace;
+color:azure;
+font-size: 20px;
 }
+
 h2 {
-  color: blueviolet;
   text-decoration: line-through;
-}
-h3,h4,h5,h6 {
-  color: orange;
-}
-li,ul,ol {
-  color: blue;
-}
-i {
-  color: brown;
-}
-strong, b {
-  color: green;
-}
-tr,td {
-  color: gray;
 }
 li {
   list-style-type: disc;
 }
 .special {
-  color: orchid;
   font-weight: bold;
 }
-div {
+a{
+  color: red;
+  font-size: 20px;
+}
+#my_link{
+  font-size: 20px;
+color: aqua;
+}
+#testlink{
+  font-size: 25px;
+  color:purple;
+}
+.human {
+  color: blue;
+}
+.lion {
+  color: brown;
+}
+.monkey {
+  color: black;
+}
+.fish {
+  color: aqua;
+}
+div{
+  color: #323232;
   width: 143px;
   height: 15px;
   padding: 25px 15px;
-  border: 5px solid hotpink;
-  margin: 30px;
+  border: 5px solid;
+  margin: 10px;
+  }
+.unique{
+  color: aqua;
+  text-align: center;
+  background-image: url(https://www.kaliningrad.kp.ru/share/i/12/11500660/);
+  background-position: center;
+  background-size:cover;
+  border: 5% solid aqua;
+  font-size: 15px;
+  margin-left: 0px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+  padding-right: 1000px
 }
-p {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 1.3em;
-  text-decoration: underline;
+.repeat{
+  border: 0.4em solid purple;
+  background-image: url(https://www.kaliningrad.kp.ru/share/i/12/11500660/);
+  background-position: center;
+  font-size: 15px;
+  margin-left: 0px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+  padding-right: 1000px
+}
+.left{
+  border: 5px solid red;
+  background-image: url(https://www.kaliningrad.kp.ru/share/i/12/11500660/);
+  background-position: left;
+  font-size: 15px;
+  margin-left: 0px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+  padding-right: 1000px
+}
+.right{
+  border:10px solid black;
+  background-image: url(https://www.kaliningrad.kp.ru/share/i/12/11500660/);
+  background-position: right;
+  font-size: 15px;
+  margin-left: 0px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+  padding-right: 1000px
+}
 
+.message {
+  color: #747474;
+  background-color: #e4e4e4;
+  border: 5px solid #323232;
+  font-size: 15px;
+  margin-left: 0px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+  padding-right: 1000px
+}
+.first {
+  background-color: green;
+  color: rgb(21, 255, 0);
+}
+.second {
+ background-color: orangered;
+ color: #323232;
+}
+.third{
+  background-color: blue;
+  color: white;
+}
+.unique:hover {
+  border: 10px solid aqua;
+}
+.repeat:hover {
+  border: 0.8em solid purple;
+}
+.left:hover {
+  border: 10px solid red
+}
+.right:hover {
+  border: 15px solid black
+}
+.message:hover {
+  border: 10px solid #323232;
+}
+#my_link:hover{
+  border: 5px solid #323232
 }
